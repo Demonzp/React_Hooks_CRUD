@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Функционал CRUD на Node.js + MySQL с применением ORM (Sequelize).\r Проект тренировочный, код не структурирован. Фронта нет, проверка функций выполняется в программе POSTMAN.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "linter": "eslint .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sholastix",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3"
+  }
+}
